@@ -15,9 +15,7 @@ pipeline {
    stages {
       
       stage('Build') {
-         tools {
-              maven 'maven'
-         }
+       
          steps {
             sh '''echo No build required for Mongodb'''
          }
